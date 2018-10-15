@@ -1,6 +1,7 @@
 import sys
 from cravat import BaseAnnotator
-from cravat import InvalidData
+from cravat import constants, InvalidData
+from pyliftover import LiftOver
 import sqlite3
 from civicpy import civic
 import os
@@ -15,6 +16,8 @@ class CravatAnnotator(BaseAnnotator):
         sqlite3.Connection object is stored as self.dbconn, and the 
         sqlite3.Cursor object is stored as self.cursor.
         """
+        
+        self.lifter = LiftOver(constants.liftover_chain_paths[self.input_assembly])
         pass
     
     def annotate(self, input_data, secondary_data=None):
