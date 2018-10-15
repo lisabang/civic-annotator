@@ -16,8 +16,8 @@ class CravatAnnotator(BaseAnnotator):
         sqlite3.Connection object is stored as self.dbconn, and the 
         sqlite3.Cursor object is stored as self.cursor.
         """
-        
-        self.lifter = LiftOver(constants.liftover_chain_paths[self.input_assembly])
+        print("dlwfno")
+        #self.lifter = LiftOver(constants.liftover_chain_paths[self.input_assembly])
         pass
     
     def annotate(self, input_data, secondary_data=None):
@@ -46,10 +46,15 @@ class CravatAnnotator(BaseAnnotator):
         carefully to ensure that your data is ending up where you intend.
         """
         #here we get all variants from CIViC
-        all_variants=civic.get_all_variants()
-        
-        out = {}
-        out['placeholder_annotation'] = 'placeholder value'
+        #all_variants=civic.get_all_variants()
+        input_data["chrom"]=input_data["chrom"][3:]
+         
+        out={}        
+        out['placeholder_annotation'] = ":".join([input_data["chrom"],str(input_data["pos"]),input_data["ref_base"],input_data["alt_base"]])
+        match=self.civicdata.get(out["placeholder_annotation"], False)
+        if match:
+            out["description"]=match.description
+            out["clinical_a_score"]=match.civic_actionability_score
         return out
     
     def cleanup(self):

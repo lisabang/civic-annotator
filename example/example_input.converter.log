@@ -1,0 +1,14 @@
+MasterConverter log
+Opened Mon Oct 15 15:07:27 2018
+Input file: /Users/gbang/Documents/civic-annotator/example/example_input
+Input format: cravat
+Output file: /Users/gbang/Documents/civic-annotator/example/example_input.crv
+Error file: /Users/gbang/Documents/civic-annotator/example/example_input.converter.err
+Map file: /Users/gbang/Documents/civic-annotator/example/example_input.crm
+Sample crs file: /Users/gbang/Documents/civic-annotator/example/example_input.crs
+Conversion start: Mon Oct 15 15:07:27 2018
+Conversion end: Mon Oct 15 15:07:27 2018
+Read lines: 373
+Error lines: 0
+Wrote lines: 373
+Conversion runtime: 0.009

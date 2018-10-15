@@ -26,6 +26,13 @@ output_columns:
   # results in a database. It may be one of string, int, or float.
   type: string
 
+- name: description
+  title: Description
+  type: string
+- name: clinical_a_score
+  title: clinical actionability score
+  type: string
+
 # description is a short description of what the annotator does. Try to limit it
 # to around 80 characters.
 description: Template annotator. If you see this description in production, someone is wrong.

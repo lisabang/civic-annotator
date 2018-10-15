@@ -1,0 +1,5 @@
+#name=civic-annotator
+#displayname=Annotator Template
+#column=0,UID,uid,int
+#column=1,Placeholder Annotation,placeholder_annotation,string
+#no_aggregate=
