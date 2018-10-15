@@ -1,0 +1,15 @@
+Mapper log
+Opened Mon Oct 15 15:07:27 2018
+Input file: /Users/gbang/Documents/civic-annotator/example/example_input.crv
+CRX Path: /Users/gbang/Documents/civic-annotator/example/example_input.crx
+CRX Path: /Users/gbang/Documents/civic-annotator/example/example_input.crx
+CRG Path: /Users/gbang/Documents/civic-annotator/example/example_input.crg
+CRG Path: /Users/gbang/Documents/civic-annotator/example/example_input.crg
+CRT Path: /Users/gbang/Documents/civic-annotator/example/example_input.crt
+ERR Path: /Users/gbang/Documents/civic-annotator/example/example_input.map.err
+Using database at: /anaconda3/lib/python3.6/site-packages/cravat/modules/mappers/hg38/data/hg38.sqlite
+Gene source(s): EnsemblT, CCDS, RefSeqT
+Primary gene source: EnsemblT
+Mapping start: Mon Oct 15 15:07:27 2018
+Mapping finish: Mon Oct 15 15:07:31 2018
+Mapping runtime:  3.559
