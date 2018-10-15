@@ -42,8 +42,8 @@ class CravatAnnotator(BaseAnnotator):
         and absent column names will be filled with None. Check your output
         carefully to ensure that your data is ending up where you intend.
         """
-	#here we get all variants from CIViC
-	all_variants=civic.get_all_variants()
+        #here we get all variants from CIViC
+        all_variants=civic.get_all_variants()
         
         out = {}
         out['placeholder_annotation'] = 'placeholder value'
