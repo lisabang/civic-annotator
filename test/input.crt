@@ -1,0 +1,6 @@
+#column=0,Primary transcript,primary_transcript,string
+#column=1,Alternate transcript,alt_transcript,string
+#index=primary_transcript
+#Primary transcript	Alternate transcript
+ENST00000288602.10	CCDS5863.1
+ENST00000288602.10	NM_004333.4

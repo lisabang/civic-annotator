@@ -3,6 +3,8 @@ from cravat import BaseAnnotator
 from cravat import constants, InvalidData
 from pyliftover import LiftOver
 import sqlite3
+import requests
+import json
 from civicpy import civic
 import os
 

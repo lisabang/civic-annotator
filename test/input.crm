@@ -1,0 +1,7 @@
+#column=0,Original Line,original_line,int
+#column=1,User Tags,tags,string
+#column=2,UID,uid,int
+#index=uid
+#index=tags
+#Original Line	User Tags	UID
+1		1

@@ -1,0 +1,6 @@
+#column=0,UID,uid,string
+#column=1,Sample,sample_id,string
+#index=uid
+#index=sample_id
+#UID	Sample
+1	s0

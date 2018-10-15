@@ -1,0 +1,7 @@
+#column=0,Hugo,hugo,string
+#column=1,Variants in Gene,num_variants,int
+#column=2,Sequence Ontology,so,string
+#column=3,All Sequence Ontologies,all_so,string
+#index=hugo
+#Hugo	Variants in Gene	Sequence Ontology	All Sequence Ontologies
+BRAF	1	MIS	MIS(1)
