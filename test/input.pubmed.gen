@@ -1,8 +1,0 @@
-#name=pubmed
-#displayname=PubMed
-#column=0,Hugo,hugo,string
-#column=1,PubMed article count,n,int
-#column=2,PubMed search link,term,string
-#no_aggregate=
-#Hugo	PubMed article count	PubMed search link
-BRAF	3194	http://www.ncbi.nlm.nih.gov/pubmed?term=BRAF[TIAB] AND cancer[MH]

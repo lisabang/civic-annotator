@@ -1,8 +1,0 @@
-#column=0,UID,uid,int
-#column=1,Chrom,chrom,string
-#column=2,Position,pos,int
-#column=3,Ref Base,ref_base,string
-#column=4,Alt Base,alt_base,string
-#index=uid
-#UID	Chrom	Position	Ref Base	Alt Base
-1	chr7	140753336	A	T

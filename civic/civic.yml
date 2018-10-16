@@ -1,0 +1,31 @@
+title: CIViC
+
+version: 0.0.1
+
+type: annotator
+
+level: variant
+
+output_columns:
+- name: description
+  title: Description
+  type: string
+- name: clinical_a_score
+  title: Clinical actionability score
+  type: string
+- name: link
+  title: Linkout
+  type: string
+- name: diseases
+  title: Diseases
+  type: string
+
+description: Provides descriptions and linkouts to CIViC
+
+developer:
+  name: ''
+  organization: 'The McDonnell Genome Institute at Washington University School of Medicine'
+  email: ''
+  website: 'https://civicdb.org'
+  citation: 'https://www.nature.com/articles/ng.3774'
+
